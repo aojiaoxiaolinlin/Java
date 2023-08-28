@@ -1,8 +1,5 @@
 package com.lin.design_patterns.proxy.demo2;
 
-import org.lin.design_patterns.proxy.demo1.SellTickets;
-import org.lin.design_patterns.proxy.demo1.TransStation;
-
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;

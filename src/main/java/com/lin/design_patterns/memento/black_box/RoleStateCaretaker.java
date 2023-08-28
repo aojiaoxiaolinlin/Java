@@ -1,7 +1,5 @@
 package com.lin.design_patterns.memento.black_box;
 
-import org.lin.design_patterns.memento.white_box.RoleStateMemento;
-
 public class RoleStateCaretaker {
     private Memento memento;
 

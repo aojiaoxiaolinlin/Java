@@ -1,7 +1,6 @@
 package com.lin.design_patterns.memento.black_box;
 
 import org.jetbrains.annotations.NotNull;
-import org.lin.design_patterns.memento.white_box.RoleStateMemento;
 
 /**
  * 发起人
