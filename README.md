@@ -37,7 +37,7 @@
 
 定义一个抽象的工厂类，具体的对象创建由子类来实现。每个具体子类对应创建一种类型的对象。
 
-![工厂方法模式](./images/FactoryMethod.jpg)
+![工厂方法模式](./src/main/java/com/lin/design_patterns/images/FactoryMethod.jpg)
 #### 抽象工厂
 
  定义一个抽象的工厂接口，包含多个工厂方法，每个方法用于创建一类相关的对象。具体的工厂子类实现这些工厂方法来创建一组相关的对象（产品簇）。
@@ -54,7 +54,7 @@
 
 抽象工厂模式适用于需要创建一系列相关的对象，且这些对象之间存在着关联或依赖关系。例如，在图形界面库中，可以使用抽象工厂模式来创建不同风格的按钮、文本框等控件，从而确保它们之间的样式一致性。这样的场景下，抽象工厂模式可以提供一种组织和管理对象的方式。
 
-![类图](./images/AbstractFactory.jpg)
+![类图](./src/main/java/com/lin/design_patterns/images/AbstractFactory.jpg)
 
 ### 建造者模式
 
@@ -72,7 +72,7 @@
 
 建造者模式的主要优点是将复杂对象的构建过程与其表示分离，使得构建过程更加灵活，能够根据不同需求创建不同的产品对象。此外，建造者模式还可以避免在客户端代码中直接创建复杂对象的构建过程，使得客户端代码更加简洁，易于理解和维护。
 
-![建造者模式](./images/Builder.jpg)
+![建造者模式](./src/main/java/com/lin/design_patterns/src/main/java/com/lin/design_patterns/images/Builder.jpg)
 
 ### 原型模式（Prototype Pattern）
 
@@ -112,7 +112,7 @@
 
 代理模式的主要优点是可以在不改变真实主题类的情况下，增加一些附加功能，例如权限控制、日志记录等。它还可以对真实主题进行保护，只有在必要的情况下才能访问真实主题。代理模式适用于需要对被代理对象进行控制和管理的情况，例如远程代理、虚拟代理等。
 
-![代理模式](./images/Proxy.jpg)
+![代理模式](./src/main/java/com/lin/design_patterns/images/Proxy.jpg)
 
 ### 装饰器模式
 
@@ -130,7 +130,7 @@
 
 4. `具体装饰者（Concrete Decorator）：` 扩展了装饰者，并实现了具体的装饰逻辑。
 
-![装饰者](./images/Decorator.jpg)
+![装饰者](./src/main/java/com/lin/design_patterns/images/Decorator.jpg)
 
   *装饰器模式*和*代理模式*的区别:
   - 相同点:
@@ -177,7 +177,7 @@
 
 4. *具体实现类（Concrete Implementor）：* 实现实现接口定义的方法，具体完成抽象类中定义的方法。
 
-![桥接](./images/Bridge.jpg)
+![桥接](./src/main/java/com/lin/design_patterns/images/Bridge.jpg)
 
 ### 外观模式
 
@@ -205,7 +205,7 @@
 当需要在不同的子类中共享一些通用的代码逻辑，同时又需要在每个子类中有一些特定的实现时。
 2. 通过模板方法模式，可以提高代码的复用性和可维护性，将变化和稳定分离，使得算法的改变对其他部分的影响最小化。
 
-![模板方法](./images/template.jpg)
+![模板方法](./src/main/java/com/lin/design_patterns/images/template.jpg)
 
 ### 策略模式
 
@@ -227,7 +227,7 @@
 2. 将不同的算法封装成独立的类，提高了代码的可维护性和可读性。
 3. 避免了使用大量的条件语句来实现不同的算法逻辑。
 
-![策略](./images/Strategy.jpg)
+![策略](./src/main/java/com/lin/design_patterns/images/Strategy.jpg)
 
 ### 命令模式
 
@@ -257,7 +257,7 @@
 2. 支持广播通知，一个主题的状态变化会同时通知所有观察者。
 3. 可以动态地添加或删除观察者，灵活性高。
 
-![观察者](./images/Observer.jpg)
+![观察者](./src/main/java/com/lin/design_patterns/images/Observer.jpg)
 
 ### 中介者模式
 
