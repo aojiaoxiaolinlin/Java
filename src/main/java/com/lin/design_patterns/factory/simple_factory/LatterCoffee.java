@@ -1,4 +1,4 @@
-package com.lin.design_patterns.factory.demo1;
+package com.lin.design_patterns.factory.simple_factory;
 
 public class LatterCoffee extends Coffee {
     @Override

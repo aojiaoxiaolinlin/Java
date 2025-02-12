@@ -9,11 +9,11 @@ public class Main {
                 防御力：%s
                 %n""", 1, 2, 3);
 
-        System.out.println("""
-                生命值：%s
-                攻击力：%s
-                防御力：%s
-                %n""".formatted(1, 2, 3));
+        System.out.printf("""
+                          生命值：%s
+                          攻击力：%s
+                          防御力：%s
+                          %n%n""", 1, 2, 3);
         String result = "变量";
 
         System.out.println("""

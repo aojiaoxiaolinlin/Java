@@ -1,4 +1,4 @@
-package com.lin.design_patterns.factory.demo1;
+package com.lin.design_patterns.factory.simple_factory;
 
 /**
  * 增加工厂和产品、工厂和商店的耦合
