@@ -58,7 +58,7 @@
 
 ### 建造者模式
 
-是一种创建型设计模式，用于将一个复杂对象的构建过程与其表示分离，以使同样的构建过程可以创建不同的表示。
+是一种创建型设计模式，用于将一个复杂对象的构建过程与其表示分离，以使同样地构建过程可以创建不同的表示。
 
 建造者模式主要包含以下几个关键角色：
 
@@ -72,7 +72,7 @@
 
 建造者模式的主要优点是将复杂对象的构建过程与其表示分离，使得构建过程更加灵活，能够根据不同需求创建不同的产品对象。此外，建造者模式还可以避免在客户端代码中直接创建复杂对象的构建过程，使得客户端代码更加简洁，易于理解和维护。
 
-![建造者模式](./src/main/java/com/lin/design_patterns/src/main/java/com/lin/design_patterns/images/Builder.jpg)
+![建造者模式](./src/main/java/com/lin/design_patterns/images/Builder.jpg)
 
 ### 原型模式（Prototype Pattern）
 
@@ -128,7 +128,7 @@
 
 3. `装饰者（Decorator）：` 实现了组件接口，并持有一个被装饰者的引用。它可以在被装饰者的基础上添加新的功能。
 
-4. `具体装饰者（Concrete Decorator）：` 扩展了装饰者，并实现了具体的装饰逻辑。
+4. `具体装饰者（Concrete Decorator）：` 扩展了装饰者，并实现了具体地装饰逻辑。
 
 ![装饰者](./src/main/java/com/lin/design_patterns/images/Decorator.jpg)
 
